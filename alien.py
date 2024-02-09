@@ -17,7 +17,7 @@ class Alien:
 
     def move(self):
         self.x += 0 
-        self.y += 0 
+        self.y += 1 
 
     def draw(self, screen):
         r = int((self.draw_tick/8) % 2 )

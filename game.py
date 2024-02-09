@@ -67,7 +67,10 @@ while running:
 
             if event.key == pg.K_ESCAPE:
                 running = False
-
+            
+            elif event.key == pg.K_q:
+                running = False
+                
             elif event.key == pg.K_LEFT:
                 left_pressed = True
 
