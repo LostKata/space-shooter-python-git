@@ -3,6 +3,7 @@
 
 import pygame as pg
 from alien import Alien
+from projectile import Projectile
 
 ### Setup ###
 pg.init()
